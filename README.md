@@ -3,6 +3,9 @@
 The model here is further finetuned by us, and the effect is better than that shown in the paper.</font>
 <h2>DATASET</h2>
 There are three datasets used in this paper. The REGRAD dataset can be downloaded from this URL: https://gr.xjtu.edu.cn/web/zeuslan/dataset
+
+<h2>Train or Validate</h2>
+Modify the path address in the train_main2.py or validata_main2.py and run the code.
 <h2>Statement</h2>
 If you are interested in our work, please consider citing the following:
 
