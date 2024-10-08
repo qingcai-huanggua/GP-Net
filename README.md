@@ -6,12 +6,12 @@ There are three datasets used in this paper. The REGRAD dataset can be downloade
 <h2>Statement<h2>
 If you are interested in our work, please consider citing the following:
 
->@article{yang2023gp,
-  title={Gp-net: A lightweight generative convolutional neural network with grasp priority},
+```
+ ( title={Gp-net: A lightweight generative convolutional neural network with grasp priority},
   author={Yang, Yuxiang and Xing, Yuhu and Zhang, Jing and Tao, Dacheng and others},
   journal={APSIPA Transactions on Signal and Information Processing},
   volume={12},
   number={1},
   year={2023},
-  publisher={Now Publishers, Inc.}
-}
+  publisher={Now Publishers, Inc.}}
+```
