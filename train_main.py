@@ -23,7 +23,7 @@ import logging
 import sys
 # 导入自定义包
 from regrad import Regrad
-from ggcnn2 import GGCNN2
+from ggcnn2 import GGCNN2 as GPNet
 #from cornell_pro import Cornell
 from functions import post_process, detect_grasps, max_iou
 
@@ -129,7 +129,7 @@ plt.show()
 
 
 # 实例化一个网络
-net = GGCNN2(4)
+net = GPNet(4)
 
 # 定义一个优化器
 optimizer = optim.Adam(net.parameters())
