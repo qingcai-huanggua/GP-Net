@@ -7,7 +7,7 @@ import cv2
 import torch.optim as optim
 from torch.utils import data
 from regrad import Regrad
-from ggcnn2 import GGCNN2
+from ggcnn2 import GGCNN2 as GPNET
 import matplotlib.pyplot as plt
 import numpy as np
 batch_size = 96
@@ -136,6 +136,6 @@ def run(net):
     return train_results
 if __name__ == '__main__':
     #这块先把网络在外部定义，方便导出，后面写了保存函数就可以直接放在里面了
-    net = GGCNN2(4)
+    net = GPNET(4)
     run(net)
     torch.save(net,'../10/trained_model_ggcnn2')
